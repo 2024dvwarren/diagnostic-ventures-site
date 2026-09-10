@@ -42,7 +42,7 @@ export default function Home() {
           </div>
           <div>
             <p>
-              Born out of a $5.2M NIH research grant at Brigham Young University, Diagnostic Ventures is a proud Utah-native startup on a mission to transform sepsis care. We are engineering a diagnostic solution that replaces traditional blood cultures, eliminating critical wait times and empowering providers to save lives.
+              Born out of a $5.4M NIH research grant at Brigham Young University, Diagnostic Ventures is a proud Utah-native startup on a mission to transform sepsis care. We are engineering a diagnostic solution that replaces traditional blood cultures, eliminating critical wait times and empowering providers to save lives.
             </p>
             <p className="fine-print">
               This product is currently under development and is not yet FDA-approved
