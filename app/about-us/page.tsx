@@ -29,7 +29,7 @@ export default function AboutPage() {
     </section>
     <section className="split-section shell about-team">
       <div className="split-media"><Image src={teamImage} alt="Scientists collaborating in a laboratory" width={3425} height={3316} sizes="(max-width: 800px) calc(100vw - 32px), 50vw" /></div>
-      <div className="split-copy"><p className="eyebrow">Our team</p><h2>World-class scientists. Proven clinical leaders.</h2><p>Built on a foundation of rigorous academic discovery and proven clinical execution, our team brings centuries of collective expertise to the frontline of medicine. We have turned our focus toward pioneering the advanced rapid diagnostics necessary to eradicate sepsis and redefine acute patient care.</p><a className="button button-primary" href="/our-team">Meet the team <span>↗</span></a></div>
+      <div className="split-copy"><p className="eyebrow">Our team</p><h2>World-class scientists. Proven clinical leaders.</h2><p>Built on a foundation of rigorous academic discovery and proven clinical execution, our team brings centuries of collective expertise to the frontline of medicine. We have turned our focus toward pioneering the advanced rapid diagnostics necessary to eradicate sepsis and redefine acute patient care.</p><a className="button button-primary" href="/our-team">Meet the team <span aria-hidden="true"><svg viewBox="0 0 16 16" width="16" height="16" fill="none" focusable="false"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" /></svg></span></a></div>
     </section>
     <SiteEnd />
   </main>;

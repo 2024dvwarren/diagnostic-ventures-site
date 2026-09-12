@@ -110,7 +110,7 @@ export function InquiryForm({ variant = "contact" }: { variant?: "contact" | "in
         {variant === "investor" && <label><span>Phone</span><input name="phone" type="tel" autoComplete="tel" placeholder="Optional" /></label>}
         <label className="form-wide"><span>How can we help?</span><textarea name="message" required rows={5} placeholder="Share a little context…" /></label>
         <div className="form-action form-wide">
-          <button className="button button-primary" type="submit">Compose email <span>↗</span></button>
+          <button className="button button-primary" type="submit">Compose email <span aria-hidden="true"><svg viewBox="0 0 16 16" width="16" height="16" fill="none" focusable="false"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" /></svg></span></button>
           <p aria-live="polite">{sent ? "Your email app should now be open with your message addressed to Brian." : "Submitting opens a pre-addressed email to brian@diagnosticventures.net."}</p>
         </div>
       </form>

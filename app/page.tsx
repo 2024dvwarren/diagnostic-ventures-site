@@ -26,7 +26,7 @@ export default function Home() {
             Helping physicians make faster, better-informed treatment decisions.
           </p>
           <a className="button button-light" href="/contact-us">
-            Get involved <span aria-hidden="true">↗</span>
+            Get involved <span aria-hidden="true"><svg viewBox="0 0 16 16" width="16" height="16" fill="none" focusable="false"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
           </a>
         </div>
         <a className="scroll-cue" href="#about" aria-label="Scroll to learn more">
@@ -58,7 +58,7 @@ export default function Home() {
           <p className="eyebrow">Our solution</p>
           <h2>Direct bacterial identification from whole blood.</h2>
           <p>Clarity ID™ is designed to isolate pathogens directly from whole blood, bypassing traditional culture processes. It brings together microfluidics, Raman spectroscopy, and machine learning to rapidly identify bacteria.</p>
-          <a className="button button-primary" href="/solution">Meet Clarity ID™ <span>↗</span></a>
+          <a className="button button-primary" href="/solution">Meet Clarity ID™ <span aria-hidden="true"><svg viewBox="0 0 16 16" width="16" height="16" fill="none" focusable="false"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" /></svg></span></a>
         </div>
         <div className="split-media machine-media">
           <Image src="/media/machine.png" alt="Clarity ID diagnostic instrument in a laboratory" width={1186} height={757} sizes="(max-width: 800px) calc(100vw - 68px), 50vw" />

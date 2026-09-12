@@ -44,7 +44,7 @@ export default function ProblemPage() {
         <div className="concentration-bar"><div><strong>5.91B</strong><span>Red blood cells</span></div><div><strong>400M</strong><span>Platelets</span></div><div><strong>10M</strong><span>White blood cells</span></div><div className="bacteria"><strong>4</strong><span>Total bacteria</span></div></div>
       </div>
     </section>
-    <section className="solution-prompt"><div className="shell"><p className="eyebrow light">Our technology</p><h2>Designed to cut the diagnostic timeline by up to 99%.</h2><p>Centrifugal isolation is designed to enable rapid pathogen identification within 20 minutes.</p><a className="button button-light" href="/solution">See our solution <span>↗</span></a></div></section>
+    <section className="solution-prompt"><div className="shell"><p className="eyebrow light">Our technology</p><h2>Designed to cut the diagnostic timeline by up to 99%.</h2><p>Centrifugal isolation is designed to enable rapid pathogen identification within 20 minutes.</p><a className="button button-light" href="/solution">See our solution <span aria-hidden="true"><svg viewBox="0 0 16 16" width="16" height="16" fill="none" focusable="false"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" /></svg></span></a></div></section>
     <SiteEnd />
   </main>;
 }

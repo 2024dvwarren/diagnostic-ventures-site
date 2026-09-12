@@ -63,7 +63,7 @@ export function PartnerCta() {
         </div>
         <div>
           <p>Every minute counts when diagnosing sepsis. We are pioneering the world’s fastest comprehensive pathogen identification system to eliminate the wait for blood cultures and save lives. Reach out to learn more about our technology, clinical timeline, or partnership opportunities.</p>
-          <Link className="button button-light" href="/contact-us">Contact us <span>↗</span></Link>
+          <Link className="button button-light" href="/contact-us">Contact us <span aria-hidden="true"><svg viewBox="0 0 16 16" width="16" height="16" fill="none" focusable="false"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" /></svg></span></Link>
         </div>
       </div>
     </section>
