@@ -15,9 +15,9 @@ export default function AboutPage() {
         <SectionHeading eyebrow="Our story" title="Eliminating the wait for effective treatment." />
         <div className="long-copy">
           <p>Nearly one in three hospital deaths is linked to sepsis—a fast-moving condition where every hour without targeted treatment decreases survival by 8%. Within 12 hours, patients can face septic shock with a mortality rate of up to 50%. Yet traditional pathogen identification diagnostics take 12 to 48 hours.</p>
-          <p>Diagnostic Ventures was born in 2017 from research led by Dr. William Pitt at Brigham Young University and supported by a $5.2M NIH grant. The team tackled bioengineering’s needle-in-a-haystack problem: isolating just 5–10 bacterial cells from billions of host cells.</p>
+          <p>Diagnostic Ventures licensed technology started in 2017 from research led by Dr. William Pitt at Brigham Young University and supported by a 5 year $5.4M NIH grant. The team tackled bioengineering’s needle-in-a-haystack problem: isolating just 5–10 bacterial cells from billions of host cells.</p>
           <p>The team engineered a proprietary centrifuge platform that isolates plasma in under four minutes. Working with BYU and Dr. Richard Robison’s BSL-3 research facilities, Diagnostic Ventures is combining centrifugal isolation, downstream bacterial processing, Raman spectroscopy, and machine learning, targeting 98–99% pathogen identification accuracy.</p>
-          <p>Diagnostic Ventures holds exclusive worldwide patent rights supporting the platform and its development.</p>
+          <p>Diagnostic Ventures holds exclusive license and patent rights supporting the platform and its development.</p>
         </div>
       </div>
     </section>
