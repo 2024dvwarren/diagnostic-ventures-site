@@ -70,7 +70,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .eyebrow.light { color: #a8dbe5; }
 .hero-lede { max-width: 535px; margin: 0 0 20px; color: #e3edf8; font-size: clamp(1rem, 1.45vw, 1.2rem); line-height: 1.65; }
 .hero-evidence { max-width: 620px; margin: 0 0 16px; color: #bfd0e2; font-size: .86rem; line-height: 1.65; }
-.hero-proof { margin: 0 0 32px; color: #fff; font-weight: 600; }
+.hero-proof { max-width: 680px; margin: 0 0 32px; color: #fff; font-size: clamp(1.35rem, 2.1vw, 1.8rem); font-weight: 700; line-height: 1.35; }
 .button-light { color: #fff; border-color: #ffffffa6; }
 .button-light:hover { color: var(--navy); background: #fff; }
 .scroll-cue { position: absolute; z-index: 3; right: max(24px, calc((100vw - 1180px) / 2)); bottom: 48px; display: flex; align-items: center; gap: 16px; color: #fff; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; }

@@ -14,7 +14,6 @@ export default function Home() {
         <div className="hero-overlay" />
         <Header overlay />
         <div className="shell hero-content">
-          <p className="eyebrow light">Diagnostic Ventures</p>
           <h1>Rapid testing saves lives.</h1>
           <p className="hero-lede">
             Diagnostic Ventures is building the most comprehensive sepsis diagnostics platform, targeting pathogen identification within 20 minutes.
