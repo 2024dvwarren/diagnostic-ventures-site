@@ -62,6 +62,7 @@ export default function Home() {
         </div>
         <div className="split-media machine-media">
           <Image src="/media/machine.png" alt="Clarity ID diagnostic instrument in a laboratory" width={1186} height={757} sizes="(max-width: 800px) calc(100vw - 68px), 50vw" />
+          <p className="image-disclaimer">AI generated image of prototype device. Not final design.</p>
         </div>
       </section>
 
