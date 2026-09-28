@@ -145,8 +145,7 @@ sup { margin-left: 2px; color: #3b6da5; font-size: .62em; font-weight: 700; vert
 .story-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 110px; }
 .long-copy p { margin: 0 0 24px; color: var(--muted); font-size: 1.04rem; line-height: 1.85; }
 .mission-panel { padding: 100px 0; color: #fff; background: linear-gradient(120deg, #355b99, #6383b5); }
-.mission-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 110px; align-items: end; }
-.mission-grid > p { margin: 0 0 10px; color: #e5eef8; font-size: 1.08rem; line-height: 1.75; }
+.mission-panel h2 { max-width: 1000px; }
 .about-team { padding-top: 120px; }
 
 .people-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
@@ -333,7 +332,7 @@ sup { margin-left: 2px; color: #3b6da5; font-size: .62em; font-weight: 700; vert
   .page-hero { min-height: 570px; }
   .page-hero-inner { padding-top: 200px; padding-bottom: 75px; }
   .page-hero h1 { font-size: clamp(3.1rem, 12.5vw, 4.8rem); }
-  .story-grid, .mission-grid, .testing-grid, .invest-grid, .contact-grid, .inquiry-card, .partner-grid { grid-template-columns: 1fr; gap: 42px; }
+  .story-grid, .testing-grid, .invest-grid, .contact-grid, .inquiry-card, .partner-grid { grid-template-columns: 1fr; gap: 42px; }
   .mission-panel, .testing-gap, .invest-band, .partner-cta { padding: 76px 0; }
   .about-team .split-media { order: 2; }
   .people-grid { gap: 18px; }
