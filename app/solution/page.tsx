@@ -14,7 +14,7 @@ export default function SolutionPage() {
     ["01", "Load", "Load the whole blood sample directly into the single-use disk.", "/media/isolation-step-1.png"],
     ["02", "Spin", "The disk reaches up to 3,000 RPM within 20 seconds.", "/media/isolation-step-2.png"],
     ["03", "Separate", "Sedimentation isolates whole-blood components according to size and density.", "/media/isolation-step-3.png"],
-    ["04", "Isolate", "Decelerate precisely over four minutes to isolate plasma for downstream analysis.", "/media/isolation-step-4.png"],
+    ["04", "Isolate", "Decelerate precisely over four minutes to isolate bacteria in plasma for downstream analysis.", "/media/isolation-step-4.png"],
   ];
   return <main>
     <PageHero eyebrow="Our solution" title="Clarity ID™" description="Direct bacterial identification from whole blood within 20 minutes." image={hero} />
