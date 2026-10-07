@@ -26,7 +26,7 @@ export default function TeamPage() {
   const hero = "/media/about-lab.jpg";
   return <main>
     <PageHero eyebrow="Meet our team" title="Over 225 years of experience in clinical development." image={hero} />
-    <section className="section-pad"><div className="shell"><SectionHeading eyebrow="Diagnostic Ventures" title="Leadership" center /><div className="people-grid leadership">{people.filter(p => p.group === "Leadership").map(p => <PersonCard key={p.name} person={p} />)}</div></div></section>
+    <section className="section-pad"><div className="shell"><SectionHeading eyebrow="Diagnostic Ventures" title="Executive Leadership" center /><div className="people-grid leadership">{people.filter(p => p.group === "Leadership").map(p => <PersonCard key={p.name} person={p} />)}</div></div></section>
     <section className="section-pad advisor-section"><div className="shell"><SectionHeading title="Scientific and Clinical Leadership" center /><div className="people-grid">{people.filter(p => p.group === "Scientific and Clinical Leadership").map(p => <PersonCard key={p.name} person={p} />)}</div></div></section>
     <section className="section-pad advisor-section"><div className="shell"><SectionHeading title="Strategic Advisors" center /><div className="people-grid">{people.filter(p => p.group === "Strategic Advisors").map(p => <PersonCard key={p.name} person={p} />)}</div></div></section>
     <SiteEnd />
